@@ -1,0 +1,167 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="2857634453" file="C:\Users\Hans-\Documents\MATLAB\Physics\UnifiedField\Refactor\FermionField.prj" location="C:\Users\Hans-\Documents\MATLAB\Physics\UnifiedField\Refactor" name="FermionField" preferred-package-location="C:\Users\Hans-\Documents\MATLAB\Physics\UnifiedField\Refactor\FermionField\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>Unified_Fermion_Field</param.appname>
+    <param.icon>${PROJECT_ROOT}\FermionField_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\FermionField_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\FermionField_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\FermionField_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\FermionField_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>1.00</param.version>
+    <param.authnamewatermark>Hans de Vries</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot>${PROJECT_ROOT}\Splash_Screen.jpg</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\Unified_Fermion_Field\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo>${PROJECT_ROOT}\UnifiedField_logo.jpg</param.logo>
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\FermionField\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\FermionField\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\FermionField\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\FermionField</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\UnifiedField.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\Add_Path_to_MATLAB_Runtime.bat</file>
+      <file>${PROJECT_ROOT}\GenSelect.jpg</file>
+      <file>${PROJECT_ROOT}\ProgramCover.jpg</file>
+      <file>${PROJECT_ROOT}\Symbols.jpg</file>
+      <file>${PROJECT_ROOT}\UnifiedField_bar.jpg</file>
+    </fileset.resources>
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\UnifiedField_FUN_16x16_Generator.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_FUN_16x1_FermionField.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_FUN_BoostGenerator.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_FUN_Calc16x16_BilinearField.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_FUN_Calc_4x4_BilinearSpinor.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_FUN_CalcBilinearFields.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_FUN_CalcGenerator.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_FUN_CalcSelfGenerator.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_FUN_CalcSequence.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_FUN_CalcSpinorFields.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_FUN_DecomposeGenerator.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_FUN_FieldImage.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_FUN_LagrangianCharges.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_FUN_LagrangianCoupling.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_FUN_Particle_Strings.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_FUN_PhaseColorGenerator.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_FUN_RotationGenerator.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_GEN_Initialization.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_GUI.fig</file>
+      <file>${PROJECT_ROOT}\UnifiedField_GUI.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_GUI_GetEvents.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_GUI_GetFields.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_GUI_Initialization.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_GUI_Make_Movie_3D.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_GUI_Show_3D.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_GUI_Show_Fields.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_GUI_Show_Particle_Definitions.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_GUI_Show_Spinors_3D.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_GUI_Show_Timelines_2D.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_GUI_Visualization.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_IMG_Initialization.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_PLAY.m</file>
+      <file>${PROJECT_ROOT}\UnifiedField_VAR_Initialization.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\FermionField\for_testing" name="readme.txt" optional="true">C:\Users\Hans-\Documents\MATLAB\Physics\UnifiedField\Refactor\FermionField\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\FermionField\for_testing" name="splash.png" optional="false">C:\Users\Hans-\Documents\MATLAB\Physics\UnifiedField\Refactor\FermionField\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\FermionField\for_testing" name="Unified_Fermion_Field.exe" optional="false">C:\Users\Hans-\Documents\MATLAB\Physics\UnifiedField\Refactor\FermionField\for_testing\Unified_Fermion_Field.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2016a</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
